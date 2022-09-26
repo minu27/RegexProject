@@ -37,6 +37,7 @@
         }
 
         .password-input {
+            margin-top: 1rem;
             width: 90%;
             padding: .25rem .75rem;
             background-color: hsl(261, 88%, 25%);
@@ -60,7 +61,7 @@
 </head>
 <body>
     <h1>Password Strength Test</h1>
-    <div class="strength-meter"></div>
+    <div class="strength-meter" id="strength-meter"></div>
     <input class="password-input" id="password-input" value="Password" type="text" autofocus aria-labelledby="password">
     <div id="reasons" class="reasons"></div>
 </body>
